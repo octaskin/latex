@@ -1,0 +1,17 @@
+# resume
+
+compiles only with XeTeX
+requires BibTex for compiling publications and the .bib filetype
+check ./preview
+
+adapted from : https://github.com/anthonyattard/Deedy-Resume-Cover-Letter/tree/e16aed8c2a669893834adab8435165054d6abed9/OpenFonts
+with diff:
+@resume.cls
+- horizontal name section 
+- name section font not Lato but Raleway
+@main.xtx
+- sections=+Extracurricular-Links-Awards+Achiev.
+- sections placement is re-done according to the content size
+@both:
+- some space fixes to better utilize the whitespace
+

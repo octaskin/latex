@@ -1,0 +1,7 @@
+cover letter
+
+compiles only with **XeTeX**
+place a signature to util/imgs/
+run latexmk -xelatex -pvc
+
+adapted from : https://github.com/anthonyattard/Deedy-Resume-Cover-Letter/tree/master/OpenFonts

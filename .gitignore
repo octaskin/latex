@@ -1,3 +1,11 @@
+util/info.tex
+
+## Custom part
+# We don't to push docs
+*.pdf 
+*.png
+
+## Github TeX template
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
