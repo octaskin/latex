@@ -1,8 +1,11 @@
 # resume
 
 compiles only with XeTeX
-requires BibTex for compiling publications and the .bib filetype
-check ./preview
+requires BibTex for compiling publications
+run latexmk -pvc -xelatex
+
+files required:
+- util/info.tex
 
 adapted from : https://github.com/anthonyattard/Deedy-Resume-Cover-Letter/tree/e16aed8c2a669893834adab8435165054d6abed9/OpenFonts
 with diff:
